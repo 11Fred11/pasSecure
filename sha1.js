@@ -2,7 +2,7 @@
  * Secure Hash Algorithm (SHA1)
  * http://www.webtoolkit.info/
  **/
-function SHA1(msg) {
+function sHa1(msg) {
   function rotate_left(n, s) {
     var t4 = (n << s) | (n >>> (32 - s));
     return t4;
