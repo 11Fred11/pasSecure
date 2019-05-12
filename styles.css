@@ -66,6 +66,9 @@ meter[value="3"]::-webkit-meter-optimum-value {
 meter[value="4"]::-webkit-meter-optimum-value {
   background: green;
 }
+meter[value="5"]::-webkit-meter-optimum-value {
+  background: red;
+}
 
 meter[value="1"]::-moz-meter-bar {
   background: red;
@@ -78,6 +81,9 @@ meter[value="3"]::-moz-meter-bar {
 }
 meter[value="4"]::-moz-meter-bar {
   background: green;
+}
+meter[value="5"]::-moz-meter-bar {
+  background: red;
 }
 
 .feedback {
