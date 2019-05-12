@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head> </head>
-  <body>
-    <h1>PasSecure 1.0</h1>
-    <input type="password" id="pass" required />
-    <button id="go">GO</button>
-    <p id="parag"></p>
+  <head>
+    <script src="zxcvbn.js"></script>
     <script src="sha1.js"></script>
     <script src="popup.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section>
+      <h1>PasSecure 1.0</h1>
+      <label for="password">Is this password secure ?</label>
+      <input type="password" name="password" id="password" required />
+      <meter max="4" id="password-strength-meter" hidden></meter>
+      <p id="password-strength-text"></p>
+    </section>
   </body>
 </html>
