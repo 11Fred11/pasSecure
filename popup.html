@@ -1,19 +1,76 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <script src="zxcvbn.js"></script>
-    <script src="sha1.js"></script>
-    <script src="popup.js"></script>
-    <link rel="stylesheet" href="styles.css" />
+    <script src="./js/zxcvbn.js"></script>
+    <script src="./js/sha1.js"></script>
+    <script src="./js/popup.js"></script>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,900"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <section>
-      <h1>PasSecure 1.0</h1>
-      <label for="password">Is this password secure ?</label>
-      <input type="password" name="password" id="password" required />
-      <meter max="4" id="password-strength-meter" hidden></meter>
-      <p id="password-found-text"></p>
-      <p id="password-strength-text"></p>
-    </section>
+    <main>
+      <header>
+            <a href="#" ><img id="aboutIcon" src="/images/icon-about.png" width="19px"></img></a>      
+        <img id="logo" src="/images/logos/logo-header-MAIN.svg" width="120px" height="25px" />
+        <a href="#" ><img id="closeIcon" src="/images/icon-close.png" width="14px"></img></a>
+      </header>
+      <div class="container">
+        <div class="box-1">
+          <img id="emoticon" src="images/emoticons/Main-logo.png" width="48px" height="48px" />
+          <h1 id="strength">PASSECURE</h1>
+          <p id="feedback">Enter a password to verify it's strength.</p>
+        </div>
+        <div class="box-2">
+          <input
+            required="true"
+            type="password"
+            id="password"
+            placeholder="Enter your password"
+            class="rounded-color-border-element"
+          />
+          <p id="disclaimer">
+            This tool is for testing purposes only. The data you enter is not
+            sent or recorded anywhere.
+          </p>
+        </div>
+        <div class="box-3">
+          <div class="left-div container" >
+            <span id="left-span" hidden>
+                <img  id="icon-skull" src="/images/skull-icons/icon-skull-1.png" width="14px" height="auto"></img>
+              <h3 id="hacked">HACKED</h3>
+              <div class="tooltip">
+                <img src="/images/icon-info.png" style="width: 14px;"></img>
+                <p class="tooltiptext tooltip-left">Number of times this password matched a hacked account.</p>
+              </div>
+            </span>
+            <output id="hackedOutput"></output>
+            <span id="times" hidden>times</span>
+          </div>
+          <div class="right-div container" >
+            <span id="right-span" hidden>
+                <img id="icon-chain" src="/images/chain-icons/icon-chain-STRONG.png" width="16px" height="auto"></img>
+              <h3 id="crack-time">CRACK TIME</h3>
+              <div class="tooltip">
+                <img src="/images/icon-info.png" style="width: 14px;"></img>
+                <span class="tooltiptext tooltip-right">Time it takes for a hacker to guess your password.</span>
+              </div>
+            </span>
+            <output id="crackTimeOutput"></output>
+          </div>
+        </div>
+        <footer>
+          <a href="#" ><img id="github-link" src="/images/icon-github.png" width="18px"></img></a>
+          <a href="#" ><img id="linkedin-link" src="/images/icon-linkedin.png" width="17px"></img></a>
+        </footer>
+      </div>
+    </main>
   </body>
 </html>

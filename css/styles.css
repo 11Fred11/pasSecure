@@ -1,0 +1,194 @@
+:root {
+  --bg-color: #1a1f35;
+  --main-color: #5acdff;
+  --gray-color: #8c92a3;
+  --strong-color: #62c966;
+  --good-color: #9dd773;
+  --meeh-color: #fdcf24;
+  --bad-color: #ff8347;
+  --terrible-color: #ff565e;
+  --result-color: var(--main-color);
+  --hacked-color: var(--terrible-color);
+}
+input::placeholder {
+  color: #cbd0d5;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: normal;
+}
+html {
+  background-color: var(--bg-color);
+}
+main {
+  font-family: "Roboto", sans-serif;
+  width: 326px;
+  height: 500px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-1 {
+  text-align: center;
+  margin-top: 14%;
+}
+.box-2 {
+  text-align: center;
+}
+.box-3 {
+  margin-top: 2%;
+  margin-bottom: 6%;
+  margin-right: 4%;
+  margin-left: 4%;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 6%;
+}
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+}
+header > img {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+i {
+  margin: 2px;
+  color: var(--gray-color);
+}
+footer > a > img {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 16px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#password:focus {
+  outline-width: 0;
+}
+.rounded-color-border-element {
+  background-color: var(--bg-color);
+  font-size: 30px;
+  line-height: normal;
+  color: var(--result-color);
+  width: 85%;
+  height: 50px;
+  border: 2px solid var(--result-color);
+  border-radius: 9999em;
+  padding: 0 15px;
+  margin: 10px 0;
+  transition: 0.2s;
+  text-align: center;
+}
+h1 {
+  margin-top: 3%;
+  margin-bottom: 0%;
+  font-size: 20pt;
+  color: var(--result-color);
+}
+output {
+  margin-top: 5%;
+  padding-left: 18%;
+  font-family: "Bahnschrift", "Adobe NotDef";
+  font-size: 18pt;
+  font-stretch: condensed;
+  color: var(--result-color);
+  font-weight: lighter;
+}
+#hackedOutput {
+  color: var(--hacked-color);
+}
+#times {
+  padding-left: 18%;
+  color: var(--gray-color);
+  font-size: 10pt;
+}
+#hacked {
+  display: inline;
+  font-size: 12pt;
+  color: var(--hacked-color);
+}
+#crack-time {
+  display: inline;
+  font-size: 12pt;
+  color: var(--result-color);
+}
+#disclaimer {
+  font-size: x-small;
+  margin-top: 0;
+  margin-right: 10%;
+  margin-left: 10%;
+  color: var(--gray-color);
+}
+#feedback {
+  padding-left: 7%;
+  padding-right: 7%;
+  margin-bottom: 4%;
+  font-size: 10pt;
+  font-weight: 400;
+  color: white;
+}
+#closeIcon {
+  width: 14px;
+  margin-top: 7px;
+  margin-right: 10px;
+}
+#aboutIcon {
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 18px;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: var(--bg-color);
+  color: var(--gray-color);
+  font-size: smaller;
+  text-align: center;
+  border-radius: 9999em;
+  padding: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--result-color);
+}
+.tooltip-left {
+  /* Position the tooltip */
+  position: absolute;
+  bottom: 5px;
+  left: -30px;
+  margin-left: -60px;
+}
+.tooltip-right {
+  /* Position the tooltip */
+  position: absolute;
+  bottom: 17px;
+  left: 2px;
+  margin-left: -114px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
