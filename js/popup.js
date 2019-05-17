@@ -140,7 +140,7 @@ window.onload = function() {
     }
     if (result.score == 4) {
       warningText =
-        " Congratulations! Your password seems very strong. Now careful where to save it.";
+        " Congratulations! Your password seems very strong. Now be careful where to save it.";
     } else
       warningText =
         result.feedback.warning == ""

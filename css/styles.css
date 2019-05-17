@@ -153,7 +153,7 @@ output {
   color: var(--result-color);
 }
 #disclaimer {
-  font-size: x-small;
+  font-size: 8pt;
   margin-top: 0;
   margin-bottom: 0px;
   margin-right: 15%;
@@ -187,7 +187,7 @@ output {
   visibility: hidden;
   width: 65%;
   color: var(--gray-color);
-  font-size: x-small;
+  font-size: 8pt;
   text-align: center;
   border-radius: 9999em;
   padding: 4px;

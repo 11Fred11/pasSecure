@@ -1,7 +1,7 @@
 {
   "name": "PasSecure",
   "version": "1.0",
-  "description": "Check if your password is secure enough !",
+  "description": "Handy chrome extension to help you choose a secure password.",
   "browser_action": {
     "default_popup": "popup.html",
     "default_icon": {
