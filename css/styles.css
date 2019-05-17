@@ -10,6 +10,7 @@
   --result-color: var(--main-color);
   --hacked-color: var(--terrible-color);
 }
+
 input::placeholder {
   color: #cbd0d5;
   font-size: 12px;
@@ -47,11 +48,31 @@ header {
   margin-right: 4%;
   margin-left: 4%;
   text-align: left;
-  display: flex;
+  display: none;
   flex-direction: row;
   justify-content: space-between;
   padding: 6%;
 }
+.box-4 {
+  color: var(--main-color);
+  margin-right: 4%;
+  text-align: left;
+  padding-right: 8%;
+  padding-bottom: 2%;
+  padding-left: 8%;
+}
+.box-4 > ul > li {
+  font-size: 8pt;
+  color: var(--gray-color);
+  margin-bottom: 6px;
+}
+.box-4 > ul > li > strong {
+  color: var(--main-color);
+}
+ul {
+  margin-top: 18px;
+}
+
 .field-icon {
   float: right;
   margin-left: -25px;
@@ -86,7 +107,7 @@ footer {
 }
 .rounded-color-border-element {
   background-color: var(--bg-color);
-  font-size: 30px;
+  font-size: 20px;
   line-height: normal;
   color: var(--result-color);
   width: 85%;
@@ -107,7 +128,7 @@ h1 {
 output {
   margin-top: 5%;
   padding-left: 18%;
-  font-family: "Bahnschrift", "Adobe NotDef";
+  font-family: "Bahnschrift", "Abel";
   font-size: 18pt;
   font-stretch: condensed;
   color: var(--result-color);
@@ -135,8 +156,8 @@ output {
   font-size: x-small;
   margin-top: 0;
   margin-bottom: 0px;
-  margin-right: 10%;
-  margin-left: 10%;
+  margin-right: 15%;
+  margin-left: 15%;
   color: var(--gray-color);
 }
 #feedback {
@@ -171,8 +192,8 @@ output {
   border-radius: 9999em;
   padding: 4px;
   position: fixed;
-  bottom: 8.5%;
-  left: 15%;
+  bottom: 9%;
+  left: 16%;
 }
 
 .tooltiptext > img {

@@ -2,12 +2,6 @@
   "name": "PasSecure",
   "version": "1.0",
   "description": "Check if your password is secure enough !",
-  "content_scripts": [
-    {
-      "matches": ["https://*/*", "http://*/*"],
-      "js": ["/js/popup.js"]
-    }
-  ],
   "browser_action": {
     "default_popup": "popup.html",
     "default_icon": {

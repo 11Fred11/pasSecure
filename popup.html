@@ -3,16 +3,15 @@
     <script src="./js/zxcvbn.js"></script>
     <script src="./js/sha1.js"></script>
     <script src="./js/popup.js"></script>
+    <script src="./js/links.js"></script>
     <link rel="stylesheet" href="/css/styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:400,900"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900"rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
   </head>
   <body>
-    <main>
+    <main id="main">
       <header>
-            <a href="#" ><img id="aboutIcon" src="/images/icon-about.png" width="19px"></img></a>      
+        <a href="#" ><img id="aboutIcon" src="/images/icon-about.png" width="19px"></img></a>      
         <img id="logo" src="/images/logos/logo-header-MAIN.svg" width="120px" height="25px" />
         <a href="#" ><img id="closeIcon" src="/images/icon-close.png" width="14px"></img></a>
       </header>
@@ -35,9 +34,9 @@
             sent or recorded anywhere.
           </p>
         </div>
-        <div class="box-3">
+        <div class="box-3" id="box-3">
           <div class="left-div container" >
-            <span id="left-span" hidden>
+            <span id="left-span">
                 <img  id="icon-skull" src="/images/skull-icons/icon-skull-1.png" width="14px" height="auto"></img>
               <h3 id="hacked">HACKED</h3>
               <div class="tooltip">
@@ -46,10 +45,10 @@
               </div>
             </span>
             <output id="hackedOutput"></output>
-            <span id="times" hidden>times</span>
+            <span id="times" >times</span>
           </div>
           <div class="right-div container" >
-            <span id="right-span" hidden>
+            <span id="right-span">
                 <img id="icon-chain" src="/images/chain-icons/icon-chain-STRONG.png" width="16px" height="auto"></img>
               <h3 id="crack-time">CRACK TIME</h3>
               <div class="tooltip">
@@ -59,6 +58,14 @@
             </span>
             <output id="crackTimeOutput"></output>
           </div>
+        </div>
+        <div class="box-4" id="tips">
+          <ul>
+            <li><strong>Make it long :</strong> Minimum recommended length is 8 characters. </li>
+            <li><strong>Make it impersonal :</strong> Don't include easy-to-guess personl info such as name ,birthday.</li>
+            <li><strong>Make it diverse :</strong> Mix uppercase, numbers and special characters.</li>
+            <li><strong>Make it different each time :</strong> Don't use the same password for multiple accounts.</li>
+          </ul>
         </div>
         <footer>
           <a href="#" ><img id="github-link" src="/images/icon-github.png" width="18px"></img></a>
