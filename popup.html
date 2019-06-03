@@ -11,13 +11,13 @@
   <body>
     <main id="main">
       <header>
-        <a href="#" ><img id="aboutIcon" src="/images/icon-about.png" width="19px"></img></a>      
+        <a href="#" ><img id="aboutIcon" src="/images/icon-about.png" width="19px" title="Password Strength comic"></img></a>      
         <img id="logo" src="/images/logos/logo-header-MAIN.svg" width="120px" height="25px" />
-        <a href="#" ><img id="closeIcon" src="/images/icon-close.png" width="14px"></img></a>
+        <a href="#" ><img id="closeIcon" src="/images/icon-close.png" width="14px" title="Close"></img></a>
       </header>
       <div class="container">
         <div class="box-1">
-          <img id="emoticon" src="images/emoticons/Main-logo.png" width="48px" height="48px" />
+          <img id="emoticon" src="images/emoticons/Main-logo.png" width="50px" height="50px" />
           <h1 id="strength">PASSECURE</h1>
           <p id="feedback">Enter a password to verify it's strength.</p>
         </div>
@@ -26,7 +26,7 @@
             required="true"
             type="password"
             id="password"
-            placeholder="Enter your password"
+            placeholder="Type something..."
             class="rounded-color-border-element"
           />
           <p id="disclaimer">
@@ -37,11 +37,11 @@
         <div class="box-3" id="box-3">
           <div class="left-div container" >
             <span id="left-span">
-                <img  id="icon-skull" src="/images/skull-icons/icon-skull-1.png" width="14px" height="auto"></img>
+                <img  id="icon-skull" src="" width="14px" height="auto"></img>
               <h3 id="hacked">HACKED</h3>
               <div class="tooltip">
                 <img src="/images/icon-info.png" style="width: 14px;"></img>
-                <span class="tooltiptext tooltip-left"><img src="/images/icon-warning.png" width="12px"/>&nbsp;&nbsp;Number of times this password matched a hacked account.</span>
+                <span class="tooltiptext tooltip-left"><img src="/images/icon-warning.png" width="12px"/>&nbsp;&nbsp;Number of times this password matched a hacked account | haveibeenpwned.com</span>
               </div>
             </span>
             <output id="hackedOutput"></output>
@@ -49,11 +49,11 @@
           </div>
           <div class="right-div container" >
             <span id="right-span">
-                <img id="icon-chain" src="/images/chain-icons/icon-chain-STRONG.png" width="16px" height="auto"></img>
+                <img id="icon-chain" src="" width="16px" height="auto"></img>
               <h3 id="crack-time">CRACK TIME</h3>
               <div class="tooltip">
                 <img src="/images/icon-info.png" style="width: 14px;"></img>
-                <span class="tooltiptext tooltip-right"><img src="/images/icon-warning.png" width="12px"/>&nbsp;&nbsp;Time it takes for a hacker to guess your password.</span>
+                <span class="tooltiptext tooltip-right"><img src="/images/icon-warning.png" width="12px"/>&nbsp;&nbsp;Time it takes for a hacker to guess your password | dropbox/zxcvbn</span>
               </div>
             </span>
             <output id="crackTimeOutput"></output>
@@ -68,8 +68,8 @@
           </ul>
         </div>
         <footer>
-          <a href="#" ><img id="github-link" src="/images/icon-github.png" width="18px"></img></a>
-          <a href="#" ><img id="linkedin-link" src="/images/icon-linkedin.png" width="17px"></img></a>
+          <a href="#" ><img id="github-link" src="/images/icon-github.png" width="18px" title="my Github account"></img></a>
+          <a href="#" ><img id="linkedin-link" src="/images/icon-linkedin.png" width="17px" title="Say hello!"></img></a>
         </footer>
       </div>
     </main>

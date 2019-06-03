@@ -141,11 +141,15 @@ window.onload = function() {
     if (result.score == 4) {
       warningText =
         " Congratulations! Your password seems very strong. Now be careful where to save it.";
-    } else
+    } else if (result.score == 3) {
+      warningText =
+        "This password is not bad, you can do better tho, better safe than sorry !";
+    } else {
       warningText =
         result.feedback.warning == ""
           ? result.feedback.suggestions
           : result.feedback.warning;
+    }
     strengthBox.innerHTML = strength[score];
     feedbackBox.innerHTML = warningText;
     let crackTime =
@@ -174,6 +178,15 @@ window.onload = function() {
       })
       .catch(err => {
         console.error(err);
+        document.documentElement.style.setProperty(
+          "--result-color",
+          getComputedStyle(document.documentElement).getPropertyValue(
+            "--gray-color"
+          )
+        );
+        strengthBox.innerHTML = "WHOOOPS!";
+        feedbackBox.innerHTML = "Slow or no internet connection, try again.";
+        emoticonBox.src = `images/emoticons/no-internet.png`;
       });
   }
 
