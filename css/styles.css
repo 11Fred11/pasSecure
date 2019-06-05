@@ -110,7 +110,7 @@ footer {
   font-size: 20px;
   line-height: normal;
   color: var(--result-color);
-  width: 85%;
+  width: 80%;
   height: 50px;
   border: 2px solid var(--result-color);
   border-radius: 9999em;
