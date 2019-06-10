@@ -45,7 +45,7 @@
 
 ## About The Project
 
-[![Passecure Screen Shot][product-screenshot]]
+[product-screenshot]
 
 A list of used resources are listed in the acknowledgements.
 
@@ -62,7 +62,7 @@ A list of used resources are listed in the acknowledgements.
 1. Get the extension at [Chrome Store](https://chrome.google.com/webstore/detail/passecure/nocglfdggmhlenglfbbaobfdcckcghdp)
 2. Enjoy.
 
-[![chrome-screenshot]]
+![chrome-screenshot]
 
 <!-- USAGE EXAMPLES -->
 
