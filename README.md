@@ -1,12 +1,10 @@
-
 <!-- PROJECT SHIELDS -->
-[![Build Status][build-shield]]()
-[![Contributors][contributors-shield]]()
+
+[![Build Status][build-shield]]
+[![Contributors][contributors-shield]](https://github.com/10Fred10/pasSecure/graphs/contributors)
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Gmail][gmail-shield]][gmail-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -31,22 +29,20 @@
   </p>
 </p>
 
-
-
 <!-- TABLE OF CONTENTS -->
+
 ## Table of Contents
 
-* [About the Project](#about-the-project)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
-
-
+- [About the Project](#about-the-project)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 [![Passecure Screen Shot][product-screenshot]]
@@ -55,13 +51,12 @@ A list of used resources are listed in the acknowledgements.
 
 ### Built With
 
-* [JS ES6+](https://getbootstrap.com)
-* [HTML 5](https://jquery.com)
-* [CSS](https://laravel.com)
-
-
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [HTML 5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+- [CSS 3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
 
 <!-- GETTING STARTED -->
+
 ## Installation
 
 1. Get the extension at [Chrome Store](https://chrome.google.com/webstore/detail/passecure/nocglfdggmhlenglfbbaobfdcckcghdp)
@@ -70,14 +65,16 @@ A list of used resources are listed in the acknowledgements.
 [![Passecure Screen Shot][chrome-screenshot]]
 
 <!-- USAGE EXAMPLES -->
+
 ## Usage
+
 Simply type any word or password in the input box and review the results.
 
 _Here are some screenshots :_
 ....
 
-
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -88,37 +85,36 @@ Contributions are what make the open source community such an amazing place to l
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
-
 <!-- LICENSE -->
+
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
+Distributed under the MIT License. See [![MIT License][license-shield]][license-url] for more information.
 
 <!-- CONTACT -->
+
 ## Contact
-[![LinkedIn][linkedin-shield]][linkedin-url] - [![Gmail][gmail-shield]][gmail-url]
+
+[![LinkedIn][linkedin-shield]][linkedin-url] [![Gmail][gmail-shield]][gmail-url]
 
 <!-- ACKNOWLEDGEMENTS -->
+
 ## Acknowledgements
-* :package: [Dropbox zxcvbn](https://github.com/dropbox/zxcvbn)
-* :earth_africa: [Haveibeenpwned](https://haveibeenpwned.com/)
-* :octocat: [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* :key: [Img Shields](https://shields.io) :closed_lock_with_key: 
 
-
+- :package: [Dropbox zxcvbn](https://github.com/dropbox/zxcvbn)
+- :earth_africa: [Haveibeenpwned](https://haveibeenpwned.com/)
+- :octocat: [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+- :key: [Img Shields](https://shields.io)
 
 <!-- MARKDOWN LINKS & IMAGES -->
+
 [build-shield]: https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square
 [contributors-shield]: https://img.shields.io/badge/contributors-1-orange.svg?style=flat-square
 [license-shield]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
 [license-url]: https://choosealicense.com/licenses/mit
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-blue.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-blue.svg?style=flat-square&logo=linkedin
 [linkedin-url]: https://linkedin.com/in/fredhm
 [gmail-shield]: https://img.shields.io/badge/Gmail-red.svg?style=flat-square&logo=gmail&logoColor=white
 [gmail-url]: mailto:contact.hammami.fredj@gmail.com
-[product-screenshot]: https://raw.githubusercontent.com/10Fred10/pasSecure/master/ReadMe-assets/passecure-medium.png
-[product-screenshot]: https://raw.githubusercontent.com/10Fred10/pasSecure/master/ReadMe-assets/chrome-store.png
-
+[product-screenshot]: https://raw.githubusercontent.com/10Fred10/pasSecure/master/readme-assets/passecure-medium.png
+[chrome-screenshot]: https://raw.githubusercontent.com/10Fred10/pasSecure/master/readme-assets/chrome-store.png
