@@ -3,8 +3,8 @@
 [![Contributors][contributors-shield]](https://github.com/10Fred10/pasSecure/graphs/contributors)
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-[![Behance][behance-shield]][behance-url]
 [![Gmail][gmail-shield]][gmail-url]
+[![Behance][behance-shield]][behance-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -131,7 +131,7 @@ Distributed under the MIT License. See [![MIT License][license-shield]][license-
 
 [build-shield]: https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square
 [contributors-shield]: https://img.shields.io/badge/contributors-1-orange.svg?style=flat-square
-[license-shield]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
+[license-shield]: https://img.shields.io/badge/license-MIT-green.svg?style=flat-square
 [license-url]: https://choosealicense.com/licenses/mit
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-blue.svg?style=flat-square&logo=linkedin
 [linkedin-url]: https://linkedin.com/in/fredhm
