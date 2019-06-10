@@ -4,6 +4,7 @@
 [![Contributors][contributors-shield]]()
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![Gmail][gmail-shield]][gmail-url]
 
 
 
@@ -19,14 +20,14 @@
   <p align="center">
     Handy chrome extension to help you choose a secure password!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/10Fred10/pasSecure" target="_blank"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://chrome.google.com/webstore/detail/passecure/nocglfdggmhlenglfbbaobfdcckcghdp" target="">Download</a>
+    <a href="https://chrome.google.com/webstore/detail/passecure/nocglfdggmhlenglfbbaobfdcckcghdp" target="_blank">Download</a>
     ·
-    <a href="https://github.com/10Fred10/pasSecure/issues">Report Bug</a>
+    <a href="https://github.com/10Fred10/pasSecure/issues" target="_blank">Report Bug</a>
     ·
-    <a href="https://github.com/10Fred10/pasSecure/pulls">Request Feature</a>
+    <a href="https://github.com/10Fred10/pasSecure/pulls" target="_blank">Request Feature</a>
   </p>
 </p>
 
@@ -76,7 +77,7 @@ _Here are some screenshots :_
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+## :open_hands: Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -89,33 +90,23 @@ Contributions are what make the open source community such an amazing place to l
 
 
 <!-- LICENSE -->
-## License
+## :page_with_curl: License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 
 
 <!-- CONTACT -->
-## Contact
-:electric_plug:
-Fred - [LinkedIn](https://www.linkedin.com/in/fredhm/)
-Fred - [Gmail](contact.hammami.fredj@gmail.com) 
+## :mailbox: Contact
+Fred - [![LinkedIn][linkedin-shield]][linkedin-url]
+<br> [![Gmail][gmail-shield]][gmail-url]
 
 <!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
-
-
+## :hearts: Acknowledgements
+* :link: [Dropbox zxcvbn](https://github.com/dropbox/zxcvbn)
+* :link: [Haveibeenpwned](https://haveibeenpwned.com/)
+* :octocat: [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* :link: [Img Shields](https://shields.io)
 
 
 
@@ -126,4 +117,7 @@ Fred - [Gmail](contact.hammami.fredj@gmail.com)
 [license-url]: https://choosealicense.com/licenses/mit
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: https://raw.githubusercontent.com/othneildrew/Best-README-Template/master/screenshot.png
+[gmail-shield]: https://img.shields.io/badge/GMAIL-red.svg?style=flat-square&logo=gmail&logoColor=white
+[gmail-url]: contact.hammami.fredj@gmail.com
+[product-screenshot]: https://raw.githubusercontent.com/10Fred10/pasSecure/master/passecure-medium.png
+
