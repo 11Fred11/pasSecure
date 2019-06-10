@@ -10,7 +10,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/10Fred10/pasSecure">
-    <img src="https://github.com/10Fred10/pasSecure/blob/master/logo-128.png" alt="Logo" width="100" height="100">
+    <img src="https://github.com/10Fred10/pasSecure/tree/master/readme-assets/logo-128.png" alt="Logo" width="100" height="100">
   </a>
 
   <h3 align="center">PASSECURE V 1.0</h3>
@@ -62,7 +62,7 @@ A list of used resources are listed in the acknowledgements.
 1. Get the extension at [Chrome Store](https://chrome.google.com/webstore/detail/passecure/nocglfdggmhlenglfbbaobfdcckcghdp)
 2. Enjoy.
 
-[![Passecure Screen Shot][chrome-screenshot]]
+[![][chrome-screenshot]]
 
 <!-- USAGE EXAMPLES -->
 
@@ -72,6 +72,7 @@ Simply type any word or password in the input box and review the results.
 
 _Here are some screenshots :_
 ....
+[![][usage-gif]]
 
 <!-- CONTRIBUTING -->
 
@@ -118,3 +119,4 @@ Distributed under the MIT License. See [![MIT License][license-shield]][license-
 [gmail-url]: mailto:contact.hammami.fredj@gmail.com
 [product-screenshot]: https://raw.githubusercontent.com/10Fred10/pasSecure/master/readme-assets/passecure-medium.png
 [chrome-screenshot]: https://raw.githubusercontent.com/10Fred10/pasSecure/master/readme-assets/chrome-store.png
+[usage-gif]: https://github.com/10Fred10/pasSecure/readme-assets/logo-128.png
