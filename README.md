@@ -50,27 +50,29 @@
   </a>
 </p>
 <br>
-<p>
-  Passecure is a fun project i made to quickly judge the strength of a new potential password on the spot, without leaving the sign-up page, or maybe you want to test random or old stuff out.
-  <ul>
-    <li>➤ Passecure let's you know how many times a particular password has been pwned/hacked.
-    <li>➤ Estimates how long does it take for a hacker to crack your password.
-    <li>➤ Provides a feedback concerning why a password is considered weak to help you make it stronger.
-  </ul>
 
-<strong>Note :</strong> all the processing is made locally on your machine, no data is stored or transferred on the internet except for the Pwned test which is explained in the example below.
+Passecure is a fun project i made to quickly judge the strength of a new potential password on the spot, without leaving the sign-up page, and sometimes i test random stuff.
 
-<strong>Example :</strong>
+- [x] Passecure let's you know how many times a particular password has been pwned/hacked.
+- [x] Estimates how long does it take for a hacker to crack your password.
+- [x] Provides a feedback concerning why a password is considered weak to help you make it stronger.
 
-  <p>
-    let's suppose you type "azerty123" your password gets hashed to "3b004ac6d8a602681f5ee3587c924855679e21d9", to test if this password has been hacked before, Passecure sends only the first 5 characters "3b004" to haveibeenpwned.com.
-    and gets a response containing all similar passwords that starts with those 5 characters , the rest of the work is done locally and gets deleted whenever you exist the extension window.
-  </p>
-</p>
+In the words of Abraham Lincoln:
 
---A list of used resources are listed in the acknowledgements.--
+> Pardon my French
+
+:bulb:**Note :**
+all the processing is made locally on your machine, no data is stored or transferred on the internet except for the Pwned test which is explained in the example below.
+
+:star: **Example :**
+let's suppose you type `azerty123` your password gets hashed to `3b004ac6d8a602681f5ee3587c924855679e21d9`, to test if this password has been <span style=“color:red;”>hacked</span> before, Passecure sends <span style=“color:green;”>only the first 5 characters</span>only the first 5 characters `3b004` to [haveibeenpwned API](https://haveibeenpwned.com/).
+and gets a response containing all similar passwords that starts with those 5 characters , the rest of the work is done locally and gets <span style=“color:green;”>deleted</span> whenever you exist the extension window.
+
+> _A list of used resources are listed in the acknowledgements._
 
 ### Built With
+
+> No need for fancy frameworks, keeping it simple wheneve i can.
 
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [HTML 5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
