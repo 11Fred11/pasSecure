@@ -1,6 +1,6 @@
 <!-- PROJECT SHIELDS -->
 
-![build-shield]![Contributors][contributors-shield]](https://github.com/10Fred10/pasSecure/graphs/contributors)
+[![Contributors][contributors-shield]](https://github.com/10Fred10/pasSecure/graphs/contributors)
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Gmail][gmail-shield]][gmail-url]
@@ -44,7 +44,9 @@
 
 ## About The Project
 
-![product-screenshot]
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/10Fred10/pasSecure/master/readme-assets/passecure-medium.png">
+</p>
 
 A list of used resources are listed in the acknowledgements.
 
@@ -114,6 +116,5 @@ Distributed under the MIT License. See [![MIT License][license-shield]][license-
 [linkedin-url]: https://linkedin.com/in/fredhm
 [gmail-shield]: https://img.shields.io/badge/Gmail-red.svg?style=flat-square&logo=gmail&logoColor=white
 [gmail-url]: mailto:contact.hammami.fredj@gmail.com
-[product-screenshot]: https://raw.githubusercontent.com/10Fred10/pasSecure/master/readme-assets/passecure-medium.png
 [chrome-screenshot]: https://raw.githubusercontent.com/10Fred10/pasSecure/master/readme-assets/chrome-store.png
 [usage-gif]: https://raw.githubusercontent.com/10Fred10/pasSecure/master/readme-assets/usage.gif
