@@ -1,7 +1,6 @@
 <!-- PROJECT SHIELDS -->
 
-[![Build Status][build-shield]]
-[![Contributors][contributors-shield]](https://github.com/10Fred10/pasSecure/graphs/contributors)
+![build-shield]![Contributors][contributors-shield]](https://github.com/10Fred10/pasSecure/graphs/contributors)
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Gmail][gmail-shield]][gmail-url]
@@ -45,7 +44,7 @@
 
 ## About The Project
 
-[product-screenshot]
+![product-screenshot]
 
 A list of used resources are listed in the acknowledgements.
 
@@ -70,9 +69,7 @@ A list of used resources are listed in the acknowledgements.
 
 Simply type any word or password in the input box and review the results.
 
-_Here are some screenshots :_
-....
-[![usage-gif]]
+![usage-gif]
 
 <!-- CONTRIBUTING -->
 
