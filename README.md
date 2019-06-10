@@ -65,7 +65,7 @@ all the processing is made locally on your machine, no data is stored or transfe
 let's suppose you type `azerty123` your password gets hashed to `3b004ac6d8a602681f5ee3587c924855679e21d9`, to test if this password has been hacked before, Passecure sends only the first 5 characters only the first 5 characters `3b004` to [haveibeenpwned API](https://haveibeenpwned.com/).
 and gets a response containing all similar passwords that starts with those 5 characters , the rest of the work is done locally and gets deleted whenever you exist the extension window.
 
-> _A list of used resources are listed in the acknowledgements._
+> _Used resources are listed in the acknowledgements._
 
 ### Built With
 
@@ -88,7 +88,7 @@ and gets a response containing all similar passwords that starts with those 5 ch
 
 ## Usage
 
-Simply type any word or password in the input box and review the results.
+Simply type any word or password in the input box and check the results.
 
 <p align="center">
   <img  src="https://raw.githubusercontent.com/10Fred10/pasSecure/master/readme-assets/usage.gif">
@@ -122,8 +122,8 @@ Distributed under the MIT License. See [![MIT License][license-shield]][license-
 
 ## Acknowledgements
 
-- :package: [Dropbox zxcvbn](https://github.com/dropbox/zxcvbn) | Js library to test password strength.
-- :earth_africa: [Haveibeenpwned](https://haveibeenpwned.com/) | API to CHeck for Hacked/Pwned passwords.
+- :package: [Dropbox zxcvbn](https://github.com/dropbox/zxcvbn) | Low-Budget Password Strength Estimation js library.
+- :earth_africa: [Haveibeenpwned](https://haveibeenpwned.com/) | Website that helps check if personal data has been compromised by data breaches.
 - :octocat: [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet) | Emojies
 - :key: [Img Shields](https://shields.io) | Shields
 
