@@ -18,10 +18,10 @@
   <p align="center">
     Handy chrome extension to help you choose a secure password!
     <br />
-    <a href="https://github.com/10Fred10/pasSecure" target="_blank"><strong>Explore the docs »</strong></a>
+    <a href="https://chrome.google.com/webstore/detail/passecure/nocglfdggmhlenglfbbaobfdcckcghdp" target="_blank"><strong>« DOWNLOAD »</strong></a>
     <br />
     <br />
-    <a href="https://chrome.google.com/webstore/detail/passecure/nocglfdggmhlenglfbbaobfdcckcghdp" target="_blank">Download</a>
+    <a href="https://www.behance.net/gallery/81385307/PASSECURE-Chrome-Extension" target="_blank">Design</a>
     ·
     <a href="https://github.com/10Fred10/pasSecure/issues" target="_blank">Report Bug</a>
     ·
