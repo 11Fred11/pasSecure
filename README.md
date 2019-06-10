@@ -101,10 +101,10 @@ Distributed under the MIT License. See [![MIT License][license-shield]][license-
 
 ## Acknowledgements
 
-- :package: [Dropbox zxcvbn](https://github.com/dropbox/zxcvbn)
-- :earth_africa: [Haveibeenpwned](https://haveibeenpwned.com/)
-- :octocat: [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- :key: [Img Shields](https://shields.io)
+- :package: [Dropbox zxcvbn](https://github.com/dropbox/zxcvbn) | Js library to test password strength.
+- :earth_africa: [Haveibeenpwned](https://haveibeenpwned.com/) | API to CHeck for Hacked/Pwned passwords.
+- :octocat: [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet) | Emojies
+- :key: [Img Shields](https://shields.io) | Shields
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
