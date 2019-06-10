@@ -45,10 +45,30 @@
 ## About The Project
 
 <p align="center">
-  <img  src="https://raw.githubusercontent.com/10Fred10/pasSecure/master/readme-assets/passecure-medium.png">
+  <a href="https://github.com/10Fred10/pasSecure">
+    <img  src="https://raw.githubusercontent.com/10Fred10/pasSecure/master/readme-assets/passecure-medium.png" alt="Logo">
+  </a>
+</p>
+<br>
+<p>
+  Passecure is a fun project i made to quickly judge the strength of a new potential password on the spot, without leaving the sign-up page, or maybe you want to test random or old stuff out.
+  <ul>
+    <li>➤ Passecure let's you know how many times a particular password has been pwned/hacked.
+    <li>➤ Estimates how long does it take for a hacker to crack your password.
+    <li>➤ Provides a feedback concerning why a password is considered weak to help you make it stronger.
+  </ul>
+
+<strong>Note :</strong> all the processing is made locally on your machine, no data is stored or transferred on the internet except for the Pwned test which is explained in the example below.
+
+<strong>Example :</strong>
+
+  <p>
+    let's suppose you type "azerty123" your password gets hashed to "3b004ac6d8a602681f5ee3587c924855679e21d9", to test if this password has been hacked before, Passecure sends only the first 5 characters "3b004" to haveibeenpwned.com.
+    and gets a response containing all similar passwords that starts with those 5 characters , the rest of the work is done locally and gets deleted whenever you exist the extension window.
+  </p>
 </p>
 
-A list of used resources are listed in the acknowledgements.
+--A list of used resources are listed in the acknowledgements.--
 
 ### Built With
 
@@ -71,7 +91,9 @@ A list of used resources are listed in the acknowledgements.
 
 Simply type any word or password in the input box and review the results.
 
-![usage-gif]
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/10Fred10/pasSecure/master/readme-assets/usage.gif">
+</p>
 
 <!-- CONTRIBUTING -->
 
@@ -117,4 +139,3 @@ Distributed under the MIT License. See [![MIT License][license-shield]][license-
 [gmail-shield]: https://img.shields.io/badge/Gmail-red.svg?style=flat-square&logo=gmail&logoColor=white
 [gmail-url]: mailto:contact.hammami.fredj@gmail.com
 [chrome-screenshot]: https://raw.githubusercontent.com/10Fred10/pasSecure/master/readme-assets/chrome-store.png
-[usage-gif]: https://raw.githubusercontent.com/10Fred10/pasSecure/master/readme-assets/usage.gif
