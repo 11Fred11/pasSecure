@@ -12,7 +12,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/10Fred10/pasSecure">
-    <img src="https://github.com/10Fred10/pasSecure/tree/master/images/icon128.png" alt="Logo" width="100" height="100">
+    <img src="https://github.com/10Fred10/pasSecure/blob/master/logo-128.png" alt="Logo" width="100" height="100">
   </a>
 
   <h3 align="center">PASSECURE V 1.0</h3>
@@ -37,7 +37,6 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-  * [Built With](#built-with)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
@@ -50,13 +49,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Passecure Screen Shot][product-screenshot]](https://github.com/10Fred10/pasSecure/passecure-medium.png)
+[![Passecure Screen Shot][product-screenshot]]
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+A list of used resources are listed in the acknowledgements.
 
 ### Built With
 
-* [Js ES6+](https://getbootstrap.com)
+* [JS ES6+](https://getbootstrap.com)
 * [HTML 5](https://jquery.com)
 * [CSS](https://laravel.com)
 
@@ -68,6 +67,8 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 1. Get the extension at [Chrome Store](https://chrome.google.com/webstore/detail/passecure/nocglfdggmhlenglfbbaobfdcckcghdp)
 2. Enjoy.
 
+[![Passecure Screen Shot][chrome-screenshot]]
+
 <!-- USAGE EXAMPLES -->
 ## Usage
 Simply type any word or password in the input box and review the results.
@@ -77,7 +78,7 @@ _Here are some screenshots :_
 
 
 <!-- CONTRIBUTING -->
-## :open_hands: Contributing
+## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -90,23 +91,22 @@ Contributions are what make the open source community such an amazing place to l
 
 
 <!-- LICENSE -->
-## :page_with_curl: License
+## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 
 
 <!-- CONTACT -->
-## :mailbox: Contact
-Fred - [![LinkedIn][linkedin-shield]][linkedin-url]
-<br> [![Gmail][gmail-shield]][gmail-url]
+## Contact
+[![LinkedIn][linkedin-shield]][linkedin-url] - [![Gmail][gmail-shield]][gmail-url]
 
 <!-- ACKNOWLEDGEMENTS -->
-## :hearts: Acknowledgements
-* :link: [Dropbox zxcvbn](https://github.com/dropbox/zxcvbn)
-* :link: [Haveibeenpwned](https://haveibeenpwned.com/)
+## Acknowledgements
+* :package: [Dropbox zxcvbn](https://github.com/dropbox/zxcvbn)
+* :earth_africa: [Haveibeenpwned](https://haveibeenpwned.com/)
 * :octocat: [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* :link: [Img Shields](https://shields.io)
+* :key: [Img Shields](https://shields.io) :closed_lock_with_key: 
 
 
 
@@ -115,9 +115,10 @@ Fred - [![LinkedIn][linkedin-shield]][linkedin-url]
 [contributors-shield]: https://img.shields.io/badge/contributors-1-orange.svg?style=flat-square
 [license-shield]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
 [license-url]: https://choosealicense.com/licenses/mit
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[gmail-shield]: https://img.shields.io/badge/GMAIL-red.svg?style=flat-square&logo=gmail&logoColor=white
-[gmail-url]: contact.hammami.fredj@gmail.com
-[product-screenshot]: https://raw.githubusercontent.com/10Fred10/pasSecure/master/passecure-medium.png
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-blue.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/fredhm
+[gmail-shield]: https://img.shields.io/badge/Gmail-red.svg?style=flat-square&logo=gmail&logoColor=white
+[gmail-url]: mailto:contact.hammami.fredj@gmail.com
+[product-screenshot]: https://raw.githubusercontent.com/10Fred10/pasSecure/master/ReadMe-assets/passecure-medium.png
+[product-screenshot]: https://raw.githubusercontent.com/10Fred10/pasSecure/master/ReadMe-assets/chrome-store.png
 
