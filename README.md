@@ -3,6 +3,7 @@
 [![Contributors][contributors-shield]](https://github.com/10Fred10/pasSecure/graphs/contributors)
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![Behance][behance-shield]][behance-url]
 [![Gmail][gmail-shield]][gmail-url]
 
 <!-- PROJECT LOGO -->
@@ -45,7 +46,7 @@
 ## About The Project
 
 <p align="center">
-  <a href="https://github.com/10Fred10/pasSecure">
+  <a href="https://www.behance.net/gallery/81385307/PASSECURE-Chrome-Extension">
     <img  src="https://raw.githubusercontent.com/10Fred10/pasSecure/master/readme-assets/passecure-medium.png" alt="Logo">
   </a>
 </p>
@@ -53,26 +54,22 @@
 
 Passecure is a fun project i made to quickly judge the strength of a new potential password on the spot, without leaving the sign-up page, and sometimes i test random stuff.
 
-- [x] Passecure let's you know how many times a particular password has been pwned/hacked.
-- [x] Estimates how long does it take for a hacker to crack your password.
-- [x] Provides a feedback concerning why a password is considered weak to help you make it stronger.
+- Passecure let's you know how many times a particular password has been pwned/hacked.
+- Estimates how long does it take for a hacker to crack your password.
+- Provides a feedback concerning why a password is considered weak to help you make it stronger.
 
-In the words of Abraham Lincoln:
-
-> Pardon my French
-
-:bulb:**Note :**
+:bulb: **Note :**
 all the processing is made locally on your machine, no data is stored or transferred on the internet except for the Pwned test which is explained in the example below.
 
 :star: **Example :**
-let's suppose you type `azerty123` your password gets hashed to `3b004ac6d8a602681f5ee3587c924855679e21d9`, to test if this password has been <span style=“color:red;”>hacked</span> before, Passecure sends <span style=“color:green;”>only the first 5 characters</span>only the first 5 characters `3b004` to [haveibeenpwned API](https://haveibeenpwned.com/).
-and gets a response containing all similar passwords that starts with those 5 characters , the rest of the work is done locally and gets <span style=“color:green;”>deleted</span> whenever you exist the extension window.
+let's suppose you type `azerty123` your password gets hashed to `3b004ac6d8a602681f5ee3587c924855679e21d9`, to test if this password has been hacked before, Passecure sends only the first 5 characters only the first 5 characters `3b004` to [haveibeenpwned API](https://haveibeenpwned.com/).
+and gets a response containing all similar passwords that starts with those 5 characters , the rest of the work is done locally and gets deleted whenever you exist the extension window.
 
 > _A list of used resources are listed in the acknowledgements._
 
 ### Built With
 
-> No need for fancy frameworks, keeping it simple wheneve i can.
+> No need for fancy frameworks, keeping it simple whenever i can.
 
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [HTML 5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
@@ -141,3 +138,5 @@ Distributed under the MIT License. See [![MIT License][license-shield]][license-
 [gmail-shield]: https://img.shields.io/badge/Gmail-red.svg?style=flat-square&logo=gmail&logoColor=white
 [gmail-url]: mailto:contact.hammami.fredj@gmail.com
 [chrome-screenshot]: https://raw.githubusercontent.com/10Fred10/pasSecure/master/readme-assets/chrome-store.png
+[behance-shield]: https://img.shields.io/badge/Behance-blue.svg?style=flat-square&logo=behance&logoColor=white
+[behance-url]: https://www.behance.net/gallery/81385307/PASSECURE-Chrome-Extension
