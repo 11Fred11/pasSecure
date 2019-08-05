@@ -1,12 +1,16 @@
-/* add all clicks events here */
-//clickable icons
+/**
+*All events related to clickable icons
+* are specified here
+*/
+
+//get all clickable icons
 function startLinks() {
   let linkedin_link = document.getElementById("linkedin-link");
   let github_link = document.getElementById("github-link");
   let closeIcon = document.getElementById("closeIcon");
   let aboutIcon = document.getElementById("aboutIcon");
 
-  /*Close window listener */
+  /*Close button */
   closeIcon.addEventListener("click", function(element) {
     window.close();
   });
@@ -23,7 +27,7 @@ function startLinks() {
       active: false
     });
   });
-  /*open linkedin page in seperate tab */
+  /*open password strength comic in seperate tab */
   aboutIcon.addEventListener("click", function(element) {
     chrome.tabs.create({
       url: "https://imgs.xkcd.com/comics/password_strength.png",
