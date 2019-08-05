@@ -1,3 +1,9 @@
+/**
+* Title : Main file
+* Description : Main Javascript file containing all the logic
+* Calling the HIBP API, Invoking the zxcvbn library and Updating the UI
+*/
+
 window.onload = function() {
   startLinks(); //add listeners to the buttons
   let timeout = null;
